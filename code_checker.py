@@ -68,7 +68,7 @@ if __name__ == "__main__":
             if distance > max_distance:
                 continue
             top_similar_files.append((distance, file_list[i].replace(folder_path, ''), file_list[j].replace(folder_path, '')))
-            top_similar_files.sort(key = lambda x :x[0])
+    top_similar_files.sort(key = lambda x :x[0])
 
     for dis, file_a, file_b in top_similar_files:
         print(dis)
