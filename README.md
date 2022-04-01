@@ -1,4 +1,4 @@
-# Source-Code-Plagiarism-Checker
+# Pairwise Source Code Plagiarism Checker
 
 1. Install Python 3.8+
 
